@@ -105,7 +105,7 @@ The POC uses:
 - It is assumed that when a source file is updated for a given day, it contains the complete set of available measurements for that day rather than only a partial subset of hours
 - If partial-day updates are possible, the production implementation should recalculate the affected turbine/day statistics using both the newly received measurements and the previously loaded historical measurements from the cleaned layer
 
-## 4. Productionising
+## 5. Productionising
 
 Before moving the POC to production, several areas would need to be refined:
 
